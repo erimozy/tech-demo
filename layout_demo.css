@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    background-color: #ffffff;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 25px;
+}
+
+/* NAVIGATION BAR */
+
+nav{
+    position: sticky;
+    top: 0;
+    background: black;
+    height: 80px;
+    width: 100%;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    
+}
+nav ul li a{
+    font-size: 18px;
+    padding: 7px 10px;
+    color: whitesmoke;
+    font-weight: 200;
+}
+.navbar a:active,.navbar a:hover{
+    color: #34dbaf;
+    transition: 0.5s;
+}
+#logo{
+    box-sizing: unset;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+label{
+    line-height: 80px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #34dbaf;
+    /* text-shadow: 2px 2px 3px #ffffff; */
+}
+
+/* MAIN */
+
+.shop{
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+}
+#shp_onl,#fas{
+    color: rgb(60, 135, 206);
+}
+#shp_onl:active,#shp_onl:hover,#fas:active,#fas:hover{
+    text-decoration: underline;
+}
+#p1{
+    background: #f7fcfa;
+    text-align: center;
+    padding-top: 50px;
+}
+#pl1_info,#pl1_info a{
+    padding-top: 10px;
+    font-size: 20px;
+    color: rgb(60, 135, 206);
+}
+.p1 a:active,.p1 a:hover{
+    text-decoration: underline;
+}
+#pl1_img{
+    text-align: center;
+}
+
+/* MAIN COLUMN */
+
+.column{
+    display: flex;
+}
+.box{
+    width: 50%;
+    text-align: center;
+}
